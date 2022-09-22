@@ -29,7 +29,7 @@ function Food() {
          <div className="flex flex-col justify-between">
             {/* Filter type */}
             <p className="font-bold text-gray-700">Filter Type</p>
-            <section className="flex flex-wrap justify-center gap-x-4 md:justify-start">
+            <section className="flex flex-wrap justify-center gap-4 md:justify-start">
                <button
                   className="border-orange-600 text-orange-600 hover:bg-orange-600 hover:text-white"
                   onClick={() => setFoods(data)}
@@ -66,7 +66,7 @@ function Food() {
          {/* Filter price */}
          <div>
             <p className="font-bold text-gray-700">Filter Price</p>
-            <section className="flex w-full flex-wrap justify-center gap-x-4 md:justify-start">
+            <section className="flex w-full flex-wrap justify-center gap-4 md:justify-start">
                <button
                   className="border-orange-600 text-orange-600 hover:bg-orange-600 hover:text-white"
                   onClick={() => filterPrice("$")}
